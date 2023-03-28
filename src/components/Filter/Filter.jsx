@@ -1,7 +1,6 @@
 import { Formik, Field } from 'formik';
 import { useState } from 'react';
 import styled from 'styled-components';
-
 import { FilterStyled } from './Filter.styled';
 
 export function Filter({ contacts, filterContacts }) {

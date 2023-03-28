@@ -1,6 +1,5 @@
 import { ContactItem } from 'components/ContactItem/ContactItem';
 import { useEffect, useState } from 'react';
-
 import styled from 'styled-components';
 
 export function ContactList({ contactList, filterQuery, onDeleteContact }) {

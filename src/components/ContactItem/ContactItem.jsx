@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 export const ContactItem = props => {
   
   return (

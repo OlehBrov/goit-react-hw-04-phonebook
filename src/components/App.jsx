@@ -5,8 +5,6 @@ import { nanoid } from 'nanoid';
 import { Filter } from './Filter/Filter';
 import { PhonebookStyled } from './App.styled';
 
-
-
 export const App = () => {
   const [contacts, setContacts] = useState([]);
   const [searchFilter, setSearchFilter] = useState('');
