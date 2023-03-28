@@ -1,13 +1,13 @@
 import { Formik, Form, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
+// import * as Yup from 'yup';
 import { useState } from 'react';
 import { Input } from 'components/Filter/Filter';
 import styled from 'styled-components';
 
-const AddContactSchema = Yup.object().shape({
-  name: Yup.string().required(),
-  number: Yup.number().required(),
-});
+// const AddContactSchema = Yup.object().shape({
+//   name: Yup.string().required(),
+//   number: Yup.number().required(),
+// });
 
 export const ContactForm = ({ addContact }) => {
   const [name, setName] = useState('');
@@ -28,7 +28,7 @@ export const ContactForm = ({ addContact }) => {
     <Formik
       initialValues={{ name: '', number: '' }}
       onSubmit={handleSubmit}
-      validationSchema={AddContactSchema}
+      // validationSchema={AddContactSchema}
     >
       <Form>
         <LabelStyled htmlFor="name">Name</LabelStyled>
